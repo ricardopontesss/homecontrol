@@ -4,9 +4,6 @@ This is a simple home automation project where I used Raspberry PI, ESP modules,
 
 I've always wanted to have a "house of the future" but domotics is very expensive, so I decided to do something using my imagination.
 I started by looking for something already done on the Internet, I quickly realised that everything that was there was not made to share and was extremely complex. I gathered bases and started to do something simple that anyone can use and do.
-
-____________________
-
 > Este é um projeto simples de automação doméstica onde eu usei o Raspberry PI, módulos ESP, sensores e relés.
 >
 >Desde sempre quis ter uma "casa do futuro" mas a domótica é muito cara, então decidi fazer algo usando a minha imaginação.
