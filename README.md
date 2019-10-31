@@ -19,3 +19,23 @@ The beginning of everything, my main concept:
 ____________________
 #Linux #Bash #Python3 #Apache2 #HTML5
 #OpenSource
+
+*I will soon be sharing the code used in various projects in my home.*
+Examples:
+- Switching lights on and off, heating or other appliances.
+- Home alarm through motion detection, with email notification and the possibility of being controlled over the Internet.
+- Night position lights activated by motion detection.
+- Mail sensor (letters) that notifies by email.
+- Daily alarm to remember something.-
+- Voice control of turning something on and off.
+- *Others, your imagination is your limit...*
+
+*Eu em breve irei partilhar o código usado em vários projectos na minha casa.
+Exemplos:
+- Ligar e desligar luzes, aquecimento ou outros aparelhos.
+- Alarme doméstico através de detecção de movimentos, com notificação por email e possibilidade de ser controlado pela Internet.
+- Luzes de presença noturna activada pela detecção de movimento.
+- Sensor de correio (cartas) que notifica por email.
+- Alarme diário para lembrar algo.
+- Controlo por vóz do ligar e desligar algo.
+- *Outros, a tua imaginação é o teu limite...*
