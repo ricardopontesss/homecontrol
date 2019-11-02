@@ -34,6 +34,7 @@ GPIO.setmode(GPIO.BOARD) ##To use GPIO with Physical numbers, more easy to ident
 #  +-----+-----+---------+------+---+-Model B1-+---+------+---------+-----+-----+  (IN) = 5V TRIGGER  (NO) = NORMALLY OPEN "Turn OFF"                                         
 
 ##This example is like joining two wires or pressing a switch to power on something.
+##When we send 5V from GPIO to the Relay Board this close the open contact and activate the light.
 
 #Control 1 vars:
 var_gpio_CONTROL1=22 ##Physical number to OUT 5V, to power ON one Relay or other (example one Led Light that works with 5V turn ON).
