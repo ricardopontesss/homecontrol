@@ -1,4 +1,6 @@
 #by Ricardo Silva Pontes @ 2019
+#the main concept, the start of everything in my homecontrol.
+
 #!/usr/bin/python3
 
 import argparse, sys, time, os
