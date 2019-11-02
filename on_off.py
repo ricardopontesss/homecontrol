@@ -5,10 +5,8 @@ import argparse, sys, time, os
 import RPi.GPIO as GPIO
 
 ### CONFIGURATIONS:
-#GPIO:
 GPIO.setwarnings(False) ##To avoid error messages
 GPIO.setmode(GPIO.BOARD) ##To use GPIO with Physical numbers, more easy to identify
-
 ### END CONFIGURATIONS
 
 #GPIO PIN'S EXAMPLE (os command = gpio readall):
@@ -32,7 +30,9 @@ GPIO.setmode(GPIO.BOARD) ##To use GPIO with Physical numbers, more easy to ident
 #  +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+   (+) = 5V          (NC) = NORMALLY CLOSED "Turn ON"                                                        
 #  | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |   (-) = GND        (COM) = COMMON "Connected to"                                 
 #  +-----+-----+---------+------+---+-Model B1-+---+------+---------+-----+-----+  (IN) = 5V TRIGGER  (NO) = NORMALLY OPEN "Turn OFF"                                         
-                                                                                                                              
+
+##This example is like joining two wires or pressing a switch to power on something.
+
 #Control 1 vars:
 var_gpio_CONTROL1=22 ##Physical number to OUT 5V, to power ON one Relay or other (example one Led Light that works with 5V turn ON).
 
