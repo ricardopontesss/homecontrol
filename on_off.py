@@ -24,13 +24,13 @@ GPIO.setmode(GPIO.BOARD)
 #  |  17 |   0 | GPIO. 0 |   IN | 0 | 11 || 12 | 0 | IN   | GPIO. 1 | 1   | 18  |        \   \    note: I use relay to connect/disconnect GND 0V,                                
 #  |  27 |   2 | GPIO. 2 |   IN | 0 | 13 || 14 |   |      | 0v      |     |     |         \   \         to never use 220V into relay, to be safe.                          
 #  |  22 |   3 | GPIO. 3 |   IN | 0 | 15 || 16 | 0 | IN   | GPIO. 4 | 4   | 23  |          \   \                                            
-#  |     |     |    3.3v |      |   | 17 || 18 | 0 | IN   | GPIO. 5 | 5   | 24  |           \   \    ___________         [-  +]Light            
+#  |     |     |    3.3v |      |   | 17 || 18 | 0 | IN   | GPIO. 5 | 5   | 24  |           \   \    ___________         {-  +}Light            
 #  |  10 |  12 |    MOSI |   IN | 1 | 19 || 20 |   |      | 0v      |     |     |            \  (+) [ 1CH RELAY ] (NC)    |  | 
 #  |   9 |  13 |    MISO |   IN | 1 | 21 ||(22)|.0.|.OUT..|.GPIO..6.|.6...|.25..|..\          \_(-) [ BOARD 5V  ] (COM)...|  |
-#  |  11 |  14 |    SCLK |   IN | 1 | 23 || 24 | 1 | IN   | CE0     | 10  | 8   |   \..........(IN) [___________] (NO)....[- +]220V
+#  |  11 |  14 |    SCLK |   IN | 1 | 23 || 24 | 1 | IN   | CE0     | 10  | 8   |   \..........(IN) [___________] (NO)...[-  +]220V
 #  |     |     |      0v |      |   | 25 || 26 | 1 | IN   | CE1     | 11  | 7   |                                                                
-#  +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+               (+) = 5V          (NC) = NORMALLY CLOSED "Turn ON"                                                        
-#  | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |               (-) = GND         (COM) = COMMON "Connected to"                                 
+#  +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+                (+) = 5V          (NC) = NORMALLY CLOSED "Turn ON"                                                        
+#  | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |                (-) = GND        (COM) = COMMON "Connected to"                                 
 #  +-----+-----+---------+------+---+-Model B1-+---+------+---------+-----+-----+               (IN) = 5V TRIGGER  (NO) = NORMALLY OPEN "Turn OFF"                                         
                                                                                                                               
 #Control 1 vars:
