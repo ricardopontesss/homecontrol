@@ -20,7 +20,7 @@ I started by looking for something already done on the Internet, I quickly reali
 >Desde sempre quis ter uma "casa do futuro" mas a domótica é muito cara, então decidi fazer algo usando a minha imaginação.
 >Comecei por procurar algo já feito na Internet, rapidamente percebi que tudo o que existia não era feito para partilhar e extremamente completo. Reuni bases e comecei eu a fazer algo simple e que qualquer pessoa possa utilizar e fazer.
 ____________________
-*I will soon be sharing the code used in various projects in my home.*
+
 Examples:
 - Switching lights on and off, heating or other appliances.
 - Home alarm through motion detection, with email notification and the possibility of being controlled over the Internet.
@@ -30,7 +30,6 @@ Examples:
 - Voice control of turning something on and off.
 - *Others, your imagination is your limit...*
 
->*Eu em breve irei partilhar o código usado em vários projectos na minha casa.
 >Exemplos:
 >- Ligar e desligar luzes, aquecimento ou outros aparelhos.
 >- Alarme doméstico através de detecção de movimentos, com notificação por email e possibilidade de ser controlado pela Internet.
