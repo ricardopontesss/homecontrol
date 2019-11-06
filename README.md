@@ -18,7 +18,7 @@ I've always wanted to have a "house of the future" but domotics is very expensiv
 I started by looking for something already done on the Internet, I quickly realised that everything that was there was not made to share and was extremely complex. I gathered bases and started to do something simple that anyone can use and do.
 >
 >Desde sempre quis ter uma "casa do futuro" mas a domótica é muito cara, então decidi fazer algo usando a minha imaginação.
->Comecei por procurar algo já feito na Internet, rapidamente percebi que tudo o que existia não era feito para partilhar e extremamente completo. Reuni bases e comecei eu a fazer algo simple e que qualquer pessoa possa utilizar e fazer.
+>Comecei por procurar algo já feito na Internet, rapidamente percebi que tudo o que existia não era feito para partilhar e extremamente complexo. Reuni bases e comecei eu a fazer algo simple e que qualquer pessoa possa utilizar e fazer.
 ____________________
 
 Examples:
